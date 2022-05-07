@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+mein {
+  width: 960px;
+}
+
+.rist {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.rist- {
+  padding: 20px 0 20px 20px;
+}
+
+.rist-:nth-child(odd) {
+  background-color: #f7f7f7;
+}
+
+.box- {
+  padding-bottom: 50px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 30%;
+  height: 200px;
+  margin: 0 5% 40px 0;
+  background-color: #ffd900;
+}
+
+.box:nth-child(1),.box:nth-child(5),.box:nth-child(9) {
+  background-color: orange;
+}
+
+.box:nth-child(3),.box:nth-child(6),.box:nth-child(9) {
+  margin: 0 0 40px 0;
+}
+
+.box:nth-child(n+7) {
+  margin-bottom: 0;
+}
